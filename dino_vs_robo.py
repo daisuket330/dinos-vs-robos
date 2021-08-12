@@ -1,19 +1,24 @@
-from robo import Fleet
+from fleet import Fleet
 from herd import Herd
+import random
   
-  
+
+
 fleetx = Fleet()
-combatnt1 = fleetx.robos[0]
+combatant1 = fleetx.robos[0]
 combatnt2 = fleetx.robos[1]
-combatnt3 = fleetx.robos[2] 
+combatnt3 = fleetx.robos[2]
 
 
-herdx = Herd()
-combatant1 = herdx.dino[0]
-combatant2 = herdx.dino[1]
-combatant3 = herdx.dino[2]
-print(combatnt1)
+
+herd1 = Herd()
+combatant1 = herd1.dino[0]
+combatant2 = herd1.dino[1]
+combatant3 = herd1.dino[2]
+
+
+
     
-#  def attack_phase(self):
-#      p1.attack minus p2 health
-#      p2 attack minus p1 health  
+# damage = combatant.getAttack()
+ 
+# hp_loss =.getHealth() - damage)

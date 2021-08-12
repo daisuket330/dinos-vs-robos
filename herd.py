@@ -7,7 +7,7 @@ class Dinosaur:
 
 
 class Herd:
-    def __init__(self,):
+    def __init__(self):
         self.dino = []     
             
     def add_dinos(self):

@@ -19,8 +19,8 @@ class Robot:
 
 
 class Fleet:
-    def __init_(self):
-        self.robos =[]
+    def __init__(self):
+        self.robos = []
 
     def add_robos(self):
         primary_robo = Robot('Alpha',8000)
@@ -29,4 +29,11 @@ class Fleet:
         self.robos.append(primary_robo)
         self.robos.append(segundo_robo)
         self.robos.append(tertiary_robo)
+
+
+def getHealth(self):
+        return self.health  
+
+def getAttack(self):
+        return self.attack
 
