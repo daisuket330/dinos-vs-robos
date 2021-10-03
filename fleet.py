@@ -6,9 +6,9 @@ class Fleet:
         self.add_robos()
 
     def add_robos(self):
-        Alpha = Robot('Alpha',8000)
-        Gamma = Robot('Gamma',6666)
-        Omega = Robot('Omega',9999)
+        Alpha = Robot('Alpha')
+        Gamma = Robot('Gamma')
+        Omega = Robot('Omega')
         self.robos.append(primary_robo)
         self.robos.append(segundo_robo)
         self.robos.append(tertiary_robo)
