@@ -16,7 +16,7 @@ class Robot:
         self.energy -= 7
         
     def add_weapons(self):
-       first_weapon = Weapon('Ragnarok',99)
+        first_weapon = Weapon('Ragnarok',99)
         second_weapon = Weapon("Plasma machete",50)
         third_weapon = Weapon('grenade',88)
         self.weapon.append(first_weapon)
