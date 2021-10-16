@@ -21,6 +21,7 @@ class Robot:
 class Fleet:
     def __init__(self):
         self.robos = []
+        self.add_robos()
 
     def add_robos(self):
         primary_robo = Robot('Alpha',8000)

@@ -8,7 +8,8 @@ class Dinosaur:
 
 class Herd:
     def __init__(self):
-        self.dino = []     
+        self.dino = []
+        self.add_dinos()     
             
     def add_dinos(self):
         dino_1 = Dinosaur('Rex',10000,15000)
