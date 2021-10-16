@@ -3,9 +3,9 @@ from attacks import Attacks
 
 class Dinosaur:
     #Constructor
-    def __init__(self, name): #, attack_power):
+    def __init__(self, name):
         self.name = name
-        #self.attack_power = attack_power
+        
         self.health = 100
         self.attack_types = []
         self.energy = 100
@@ -16,8 +16,8 @@ class Dinosaur:
         self.energy -= 10
 
     def add_attack(self):
-        crunch = Attacks("Crunch", 60)
-        rend = Attacks("Rend", 45)
+        crunch = Attacks("Crunch", 100)
+        rend = Attacks("Rend", 75)
         roar = Attacks("Roar", 30)
         self.attack_types.append(crunch)
         self.attack_types.append(rend)
